@@ -6,9 +6,8 @@ locked = threading.Lock()
 def mesa(persona):
     global x
     x = 2
-    if x == 2:
-        print("-------------------------------")
-        print("La persona " + str(persona) + " tiene " + str(x) + " palillos y ha empezado a comer")
+    print("-------------------------------")
+    print("La persona " + str(persona) + " tiene " + str(x) + " palillos y ha empezado a comer")
 
 
 class Hilo(threading.Thread):
